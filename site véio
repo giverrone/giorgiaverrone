@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiorgiaVerrone - Catálogo de Livros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GiorgiaVerrone</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#catalog">Catálogo</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo ao Catálogo de Livros</h2>
+        <p>Descubra suas próximas leituras!</p>
+    </section>
+
+    <section id="catalog">
+        <h2>Catálogo</h2>
+        <div class="book">
+            <img src="capa-livro1.jpg" alt="Capa do Livro 1">
+            <h3>Título do Livro 1</h3>
+            <p>Autor: Autor 1</p>
+            <p>Breve sinopse do livro 1.</p>
+            <button>Mais Informações</button>
+        </div>
+        <!-- Adicione mais livros aqui -->
+    </section>
+
+    <section id="about">
+        <h2>Sobre</h2>
+        <p>Este site é dedicado a amantes de livros.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 202
